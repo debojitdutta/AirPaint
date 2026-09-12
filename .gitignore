@@ -1,0 +1,24 @@
+# Environments
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models (Keep the directory, ignore the large model files)
+models/*.task
+models/*.tflite
+models/*.h5
+models/*.pb
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
